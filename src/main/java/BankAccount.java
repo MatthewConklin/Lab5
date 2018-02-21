@@ -87,7 +87,7 @@ public class BankAccount {
     public double getInterestEarned() {
         return interestEarned;
     }
-
+ 
     public void setInterestEarned(final double interestEarned) {
         this.interestEarned = interestEarned;
     }
