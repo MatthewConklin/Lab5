@@ -29,6 +29,12 @@ public class Bank {
         /*
          * Implement this function
          */
+        if (bankAccount - amount < 0) {
+            return false;
+        } else {
+            bankAccount -= amount;
+            return true;
+        }
     }
 
     /**
